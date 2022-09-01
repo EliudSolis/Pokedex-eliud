@@ -68,28 +68,8 @@ const Pokedex = () => {
 
   const indexOfLastCard = cardsPerPage * pokemons?.results.length
   const indexOfFirstCard = indexOfLastCard - cardsPerPage
-  const currentCard = pokemons?.results.slice(indexOfFirstCard, indexOfLastCard)
   const totalPages = Math.floor(pokemons?.count / cardsPerPage)
 
-
-
-  // const setTotalPages = (optionType, pokemons, currentPage) =>{
-
-  //   let totalPages 
-  //   console.log(optionType)
-  //   console.log(pokemons)
-
-  //   if(optionType !== "All"){
-  //    return totalPages = Math.floor(pokemons?.results.length / currentPage)
-  //   } else {
-  //    return totalPages = Math.floor(pokemons?.count / currentPage)
-  //   }
-  // }
-
-  // const totalPages = setTotalPages(optionType, pokemons, currentPage)
-
-
-  // console.log(totalPages)
 
 
 

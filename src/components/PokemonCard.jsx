@@ -51,7 +51,7 @@ const PokemonCard = ({url}) => {
                         key={stat.stat.name}
                         
                         infosStat={stat}
-                        endpnt={stat.stat.url}
+                        
                         />
                     ))
                 }
